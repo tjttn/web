@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отслеживание грузов</title>
+  <link rel="stylesheet" href="weblab2.css">
+</head>
+<body>
+  <!--шапка сайта-->
+  <header class="header">
+    <div class="logo">✱ Вариант 3</div>
+    <div class="profile-icon">👤</div>
+  </header>
+
+  <!--основная инфа-->
+  <main>
+    <div class="main-header">
+    <h1>Отслеживание грузов</h1>
+    <div class="dropdown">
+  <button class="sort-button">По умолчанию ▾</button>
+  <div class="dropdown-content">
+    <a href="#">По умолчанию</a>
+    <a href="#">В пути</a>
+    <a href="#">Доставлен</a>
+    <a href="#">Опаздывает</a>
+    <a href="#">Отменён</a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="orders">
+    <!-- карточки заказов -->
+  </div>
+
+    <div class="orders">
+      <!--карточка1-->
+      <div class="order-card in-progress">
+        <span class="status">В пути</span>
+        <p class="order-number">Заказ номер № 3583515</p>
+
+        <div class="order-info">
+          <div class="info-block">
+            <span class="label">Вес:</span>
+            <span class="value">2,7 кг</span>
+          </div>
+          <div class="info-block">
+            <span class="label">Цена:</span>
+            <span class="value">13 000 руб</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="driver">
+          <img src="avatar1.jpg" alt="driver">
+          <div class="driver-info">
+            <p class="driver-name">Леонидов Артём Владимирович</p>
+            <p class="driver-car">Легковой · В 053 РА 48</p>
+          </div>
+        </div>
+      </div>
+
+      <!--карточка2-->
+      <div class="order-card delivered">
+        <span class="status">Доставлен</span>
+        <p class="order-number">Заказ номер № 3585978</p>
+
+        <div class="order-info">
+          <div class="info-block">
+            <span class="label">Вес:</span>
+            <span class="value">78 кг</span>
+          </div>
+          <div class="info-block">
+            <span class="label">Цена:</span>
+            <span class="value">1 110 000 руб</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="driver">
+          <img src="avatar2.jpg" alt="driver">
+          <div class="driver-info">
+            <p class="driver-name">Волков Ефим Сергеевич</p>
+            <p class="driver-car">Грузовой · К 109 СС 799</p>
+          </div>
+        </div>
+      </div>
+
+      <!--карточка3-->
+      <div class="order-card canceled">
+        <span class="status">Отменён</span>
+        <p class="order-number">Заказ номер № 3583515</p>
+
+        <div class="order-info">
+          <div class="info-block">
+            <span class="label">Вес:</span>
+            <span class="value">2 кг</span>
+          </div>
+          <div class="info-block">
+            <span class="label">Цена:</span>
+            <span class="value">9 700 руб</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="driver">
+          <img src="avatar3.jpg" alt="driver">
+          <div class="driver-info">
+            <p class="driver-name">Островский Константин Владимирович</p>
+            <p class="driver-car">Легковой · У 472 КА 48</p>
+          </div>
+        </div>
+      </div>
+
+      <!--карточка4-->
+      <div class="order-card in-progress">
+        <span class="status">В пути</span>
+        <p class="order-number">Заказ номер № 7848056</p>
+
+        <div class="order-info">
+          <div class="info-block">
+            <span class="label">Вес:</span>
+            <span class="value">77 кг</span>
+          </div>
+          <div class="info-block">
+            <span class="label">Цена:</span>
+            <span class="value">2 175 000 руб</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="driver">
+          <img src="avatar4.jpg" alt="driver">
+          <div class="driver-info">
+            <p class="driver-name">Агеев Пётр Романович</p>
+            <p class="driver-car">Легковой · А 407 ХС 36 </p>
+          </div>
+        </div>
+      </div>
+
+      <!--карточка5-->
+      <div class="order-card in-progress">
+        <span class="status">В пути</span>
+        <p class="order-number">Заказ номер № 8952389</p>
+
+        <div class="order-info">
+          <div class="info-block">
+            <span class="label">Вес:</span>
+            <span class="value">4 кг</span>
+          </div>
+          <div class="info-block">
+            <span class="label">Цена:</span>
+            <span class="value">72 000 руб</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="driver">
+          <img src="avatar5.jpg" alt="driver">
+          <div class="driver-info">
+            <p class="driver-name">Зимин Кирилл Игоревич</p>
+            <p class="driver-car">Легковой · Р 395 РН 48 </p>
+          </div>
+        </div>
+      </div>
+
+      <!--карточка6-->
+      <div class="order-card delayed">
+        <span class="status">Опаздывает</span>
+        <p class="order-number">Заказ номер № 7848056</p>
+
+        <div class="order-info">
+          <div class="info-block">
+            <span class="label">Вес:</span>
+            <span class="value">1 248 кг</span>
+          </div>
+          <div class="info-block">
+            <span class="label">Цена:</span>
+            <span class="value">3 549 920 руб</span>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="driver">
+          <img src="avatar6.jpg" alt="driver">
+          <div class="driver-info">
+            <p class="driver-name">Хороводова Оксана Анатольевна</p>
+            <p class="driver-car">Легковой · К 707 МБ 48 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Футер -->
+  <footer>
+    © Вариант 3. Жданов Михаил, группа АИ-23
+  </footer>
+</body>
+</html>
